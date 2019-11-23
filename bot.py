@@ -8,11 +8,8 @@ from datetime import datetime
 access_token = '965696888:AAGfuxg8heeJBX0MqU18fte8Bvtvsw8-cTQ'
 
 bot = telebot.TeleBot(access_token)
-
-
 dict = {'/monday': '1day', '/tuesday': '2day', '/wednesday': '3day', '/thursday': '4day', '/friday': '5day', '/saturday': '6day'}
 name_week = ['Понедельник', ' Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота']
-
 
 
 def get_page(group: str) -> str:
