@@ -2,11 +2,11 @@ import requests
 import telebot
 from bs4 import BeautifulSoup
 from datetime import datetime
-from telebot import apihelper
+
 
 
 access_token = '965696888:AAGfuxg8heeJBX0MqU18fte8Bvtvsw8-cTQ'
-apihelper.proxy = {'https':'http://78.41.53.39:8080'}
+
 bot = telebot.TeleBot(access_token)
 
 
